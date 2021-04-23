@@ -5,9 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+    <App name="John Doe" age="24" email="johndoe@email.com" />
+    {/* <App name="Jane Doe" age="28" email="janedoe@email.com" />
+    <App name="James Doe" age="20" email="jamesdoe@email.com" /> */}
+  </>
+  ,
   document.getElementById('root')
 );
 
